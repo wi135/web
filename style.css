@@ -20,6 +20,9 @@ h1{
 body{
   margin:0
 }
+a {
+
+}
 @media(max-width:955PX) {
   #grid{
     display:block;
@@ -28,7 +31,14 @@ body{
    text-align:left;
    border-bottom:none
   }
-  #grid  ol{
+ #grid  ol{
    border-right:none;
+ }
+a{
+   text-decoration:none;
+   color:black;
+ }
+#링크{
+   text-decoration:underline;
  }
 }
